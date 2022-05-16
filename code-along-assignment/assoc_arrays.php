@@ -4,6 +4,15 @@
     <title>Associative arrays</title>
   </head>
   <body>
+    <!-- navigation -->
+  <header>
+  <ul>
+    <li><a href="arrays.php">arrays</a></li>
+    <li><a href="array_functions.php">array functions</a></li>
+    <li><a href="#">assoc_arrays</a></li>
+  </ul>
+</header>
+<!-- end navigation -->
   <?php
   $assoc = array("first_name"=>"Kevin", "last_name"=>"Skoglund");//associative array containing first name and last names?>
 <?php echo $assoc ["first_name"];//echo first name?><br/>

@@ -4,6 +4,17 @@
     <title>Arrays</title>
   </head>
   <body>
+    <!-- navigation -->
+<header>
+  <ul>
+    <li><a href="#">arrays</a></li>
+    <li><a href="array_functions.php">array functions</a></li>
+    <li><a href="assoc_arrays.php">assoc_arrays</a></li>
+  </ul>
+</header>
+<!-- end navigation -->
+
+
 <?php
 $numbers = array(4,8,15,16,23,42);//array containing numbers
 echo $numbers[0];//arrays start at 0

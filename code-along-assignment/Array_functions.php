@@ -4,7 +4,15 @@
     <title>Array functions</title>
   </head>
   <body>
-  
+    <!-- navigation -->
+  <header>
+  <ul>
+    <li><a href="arrays.php">arrays</a></li>
+    <li><a href="#">array functions</a></li>
+    <li><a href="assoc_arrays.php">assoc_arrays</a></li>
+  </ul>
+</header>
+  <!-- end navigation -->
   <?php $numbers = array(8,23,15,42,16,4);//assign array to $numbers?>
 
   Count:<?php echo count($numbers);//counts the number of item in an array?><br/>
